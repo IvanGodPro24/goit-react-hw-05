@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.image {
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 150px;
+}
+
+.content {
+  max-width: 500px;
+  text-align: justify;
+}
+
+.noreviews {
+  margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 2rem;
+}
+
+.item {
+    flex-basis: calc((100% - 160px) / 4);
+    max-width: 200px;
+}
+
+.image {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
